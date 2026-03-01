@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 
 * {
@@ -55,4 +56,139 @@ body {
   text-decoration: none;
   color: #000000;
   font-family: "Montserrat", sans-serif;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Nome */
+h1 {
+  font-weight: bold;
+}
+
+span {
+  color: #22d4fd;
+  border: 1px solid #22d4fd;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+body {
+  background: #0f172a;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+  background: #020617;
+  width: 85%;
+  max-width: 1000px;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
+
+/* FOTO */
+.foto {
+  width: 40%;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.foto img {
+  width: 80%;
+  border-radius: 48px;
+  border: 5px solid #38bdf8;
+}
+
+/* CONTEÚDO */
+.conteudo {
+  width: 60%;
+  padding: 50px;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* TÍTULO */
+.conteudo h1 {
+  font-size: 2.3rem;
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+/* TEXTO */
+.conteudo p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 35px;
+  color: #cbd5e1;
+}
+
+/* REDES */
+.redes {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* BOTÕES */
+.btn {
+  text-decoration: none;
+  padding: 12px 22px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  color: white;
+}
+
+/* CORES DOS BOTÕES */
+.github {
+  background: #1f2937;
+}
+.github:hover {
+  background: #374151;
+}
+
+.linkedin {
+  background: #0a66c2;
+}
+.linkedin:hover {
+  background: #004182;
+}
+
+.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+.instagram:hover {
+  filter: brightness(1.2);
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .foto,
+  .conteudo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .redes {
+    justify-content: center;
+  }
+>>>>>>> 00453144f4b47bec16b341118ff41a7719ed38a3
 }
