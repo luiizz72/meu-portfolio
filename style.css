@@ -8,7 +8,11 @@
 body {
   height: 100vh;
   box-sizing: border-box;
+<<<<<<< HEAD
   background-color: #44444e;
+=======
+  background-color: #000000;
+>>>>>>> 3fa0b3f6828a5724ec58a3d7a94a5a41ca796885
   color: #f6f6f6;
 }
 

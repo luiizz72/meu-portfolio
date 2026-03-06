@@ -2,10 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
 
 :root {
+<<<<<<< HEAD
   --cor-primaria: #001f3d;
   --cor-secundaria: #000000;
   --cor-terciaria: #16476a;
   --cor-hover: #262626;
+=======
+  --cor-primaria: #000000;
+  --cor-secundaria: #f6f6f6;
+  --cor-terciaria: #22d4fd;
+  --cor-hover: #272727;
+>>>>>>> 3fa0b3f6828a5724ec58a3d7a94a5a41ca796885
 
   --fonte-primaria: "Krona One", sans-serif;
   --fonte-secundaria: "Montserrat", sans-serif;
@@ -72,7 +79,11 @@ body {
   font-size: 24px;
 }
 .apresentacao__links__link {
+<<<<<<< HEAD
   display: flex-box;
+=======
+  display: flex;
+>>>>>>> 3fa0b3f6828a5724ec58a3d7a94a5a41ca796885
   justify-content: center;
   gap: 16px;
   border: 2px solid var(--cor-terciaria);
